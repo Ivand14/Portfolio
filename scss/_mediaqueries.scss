@@ -1,5 +1,9 @@
 
 @media screen and (max-width:1075px){
+    .header{
+        background-position-y: 50%;
+        background-position-x: 50%;
+    }
     .contenedor-items{
         padding: 0;
         z-index: 2;
@@ -15,7 +19,12 @@
 };
 
 
-@media screen and (max-width:633px){
+@media (max-width:390px) and (max-width:574px){
+
+    .header{
+        background-position-y: 50%;
+        background-position-x: 50%;
+    }
     .contenedorYo{
         h1{
             font-size: 2.4rem;
@@ -44,7 +53,13 @@
             font-size: 2rem;
         }
     }
-
+    .queHago{
+        padding: 5rem;
+        p{
+            margin: 0rem 13rem;
+            text-align: start;
+        }
+    }
     .proyectos{
         h2{
             font-size: 2.4rem;
@@ -61,7 +76,11 @@
     }
 }
 
-@media (min-width: 381px) and (max-width:497px){
+@media (min-width: 381px) and (max-width:574px){
+    .header{
+        background-position-y: 50%;
+        background-position-x: 50%;
+    }
     .contenedorYo{
         h1{
             font-size: 2rem;
@@ -144,7 +163,7 @@
 
     .contenedor{
         h2{
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
 
         h3{

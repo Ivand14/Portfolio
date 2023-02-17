@@ -266,6 +266,10 @@ html {
 }
 
 @media screen and (max-width: 1075px) {
+  .header {
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
   .contenedor-items {
     padding: 0;
     z-index: 2;
@@ -277,7 +281,11 @@ html {
     z-index: 1;
   }
 }
-@media screen and (max-width: 633px) {
+@media (max-width: 390px) and (max-width: 574px) {
+  .header {
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
   .contenedorYo h1 {
     font-size: 2.4rem;
   }
@@ -297,6 +305,13 @@ html {
   .contenedor p {
     font-size: 2rem;
   }
+  .queHago, .contactameContainer {
+    padding: 5rem;
+  }
+  .queHago p, .contactameContainer p {
+    margin: 0rem 13rem;
+    text-align: start;
+  }
   .proyectos h2 {
     font-size: 2.4rem;
   }
@@ -307,7 +322,11 @@ html {
     font-size: 2rem;
   }
 }
-@media (min-width: 381px) and (max-width: 497px) {
+@media (min-width: 381px) and (max-width: 574px) {
+  .header {
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
   .contenedorYo h1 {
     font-size: 2rem;
   }
@@ -368,7 +387,7 @@ html {
     width: 22rem;
   }
   .contenedor h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .contenedor h3 {
     font-size: 1.9rem;
