@@ -16,6 +16,20 @@
     .contenedor-nav{
         z-index: 1;
     }
+
+    .queHago{
+        padding: 5rem;
+        p{
+            margin: 0rem 24rem;
+            text-align: center;
+        }
+    }
+
+    .contactameContainer{
+        p{
+            margin: 1rem 0rem;
+        }
+    }
 };
 
 
@@ -57,7 +71,7 @@
         padding: 5rem;
         p{
             margin: 0rem 13rem;
-            text-align: start;
+            text-align: center;
         }
     }
     .proyectos{
@@ -80,7 +94,7 @@
     .header{
         background-position-y: 30%;
         background-position-x: 30%;
-        background-image: linear-gradient(to top, #3133355b 0%, #e2ebf06b 100%), url('/img/fotoPrincipal.jpg');
+        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('/img/fotoPrincipal.jpg');
     }
     .contenedorYo{
         h1{
@@ -116,7 +130,7 @@
         padding: 5rem;
         p{
             margin: 0rem 23rem;
-            text-align: start;
+            text-align: center;
         }
     }
     .proyectos{
@@ -148,6 +162,12 @@
 }
 
 @media (min-width: 300px) and (max-width:359px){
+    .header{
+        background-position-y: 30%;
+        background-position-x: 30%;
+        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('/img/fotoPrincipal.jpg');
+    }
+    
     .contenedorYo{
         gap: .2rem;
         h1{
