@@ -21,7 +21,7 @@
     height: 100vh;
     width: 35vh;
     overflow: hidden;
-    background-image: linear-gradient(to right, #5c5959 0%, rgba(32, 32, 32, 0.767) 100%);
+    background-image: linear-gradient(to right, #5c5959fb 0%, rgba(32, 32, 32, 0.952) 100%);
     box-shadow: 0 0 1rem (#000);
     transition: transform .6s ease-in-out;
     transform: translate(110%);
@@ -165,30 +165,41 @@
 }
 
 //PROYECTOS
-
-.contenedorProyectos{
+.proyectos{
     display: flex;
-    padding: 1rem;
-    width: 100%;
-}
-.todosProyectos {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    padding: 1rem;
+    h2{
+        text-decoration: underline;
+        font-family: $subtitulos;
+    }
+
+    h3{
+        font-family: $texto;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
+}
+.contenedorProyectos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 .proyectoEstilos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    h3{
-        text-decoration: none;
-    }
 }
-
 .imgProyecto{
     height:20rem;
     max-width: 100%;
@@ -198,11 +209,11 @@
 }
 .btnoes{
     display: flex;
-    margin: 8rem 2rem;
+    gap: 1rem;
 }
 .btn-proyectos{
     font-size: 1.5rem;
-    margin: 3rem;
+    
     padding: 1rem;
     border-radius: 1rem;
     cursor: pointer;

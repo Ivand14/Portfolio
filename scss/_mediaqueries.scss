@@ -1,0 +1,206 @@
+
+@media screen and (max-width:1075px){
+    .contenedor-items{
+        padding: 0;
+        z-index: 2;
+    }
+
+    .contenedorIcons{
+        padding: .5rem;
+    }
+
+    .contenedor-nav{
+        z-index: 1;
+    }
+};
+
+
+@media screen and (max-width:633px){
+    .contenedorYo{
+        h1{
+            font-size: 2.4rem;
+        }
+
+        h2{
+            font-size: 1.9rem;
+        }
+
+        img{
+            height: 25rem;
+            width: 25rem;
+        }
+    }
+
+    .contenedor{
+        h2{
+            font-size: 2.4rem;
+        }
+
+        h3{
+            font-size: 2.1rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    .proyectos{
+        h2{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    .footer{
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (min-width: 381px) and (max-width:497px){
+    .contenedorYo{
+        h1{
+            font-size: 2rem;
+        }
+
+        h2{
+            font-size: 1.7rem;
+        }
+
+        img{
+            height: 25rem;
+            width: 25rem;
+        }
+    }
+
+    .contenedor{
+        h2{
+            font-size: 2.4rem;
+        }
+
+        h3{
+            font-size: 2.1rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+    .queHago{
+        padding: 5rem;
+        p{
+            margin: 0rem 13rem;
+            text-align: start;
+        }
+    }
+    .proyectos{
+        h2{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 1.7rem;
+        }
+    }
+    
+    .imgProyecto{
+        height: 15rem;
+    }
+
+    .btn-proyectos{
+        font-size: 1.3rem;
+    }
+    .contactameContainer{
+        p{
+            margin: 1rem -4rem;
+        }
+    }
+    .footer{
+        p{
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width:381px){
+    .contenedorYo{
+        gap: .2rem;
+        h1{
+            font-size:1.5rem;
+        }
+
+        h2{
+            font-size: 1.4rem;
+        }
+
+        img{
+            height: 22rem;
+            width: 22rem;
+        }
+    }
+
+    .contenedor{
+        h2{
+            font-size: 2.2rem;
+        }
+
+        h3{
+            font-size: 1.9rem;
+        }
+
+        p{
+            font-size: 1.7rem;
+        }
+    }
+    .queHago{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        p{
+            margin: 0rem 15rem;
+            text-align: start;
+        }
+    }
+
+    .carousel{
+        img{
+            height:auto;
+        }
+    }
+
+    .proyectos{
+        h2{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 1.7rem;
+        }
+    }
+    .btones{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .imgProyecto{
+        height: 15rem;
+    }
+
+    .btn-proyectos{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contactameContainer{
+        p{
+            margin: 1rem -4rem;
+        }
+    }
+    .footer{
+        p{
+            font-size: 1.3rem;
+        }
+    }
+}
