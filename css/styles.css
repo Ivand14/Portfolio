@@ -14,7 +14,7 @@ html {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to top, rgba(49, 51, 53, 0.3568627451) 0%, rgba(226, 235, 240, 0.5568627451) 100%), url("/img/fotoPrincipal.jpg");
+  background-image: linear-gradient(to top, rgba(49, 51, 53, 0.3098039216) 0%, rgba(226, 235, 240, 0.4509803922) 100%), url("../img/fotoPrincipal.jpg");
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
@@ -130,7 +130,7 @@ html {
   border-radius: 0.9999rem;
   box-shadow: 0 0 0.4rem #000;
   cursor: pointer;
-  z-index: 2;
+  z-index: 1;
 }
 
 .contenedorMain {
@@ -283,6 +283,9 @@ html {
     padding: 0;
     z-index: 2;
   }
+  .hamburguer {
+    z-index: -1 !important;
+  }
   .contenedorIcons {
     padding: 0.5rem;
   }
@@ -314,6 +317,9 @@ html {
   .contenedorYo img {
     height: 25rem;
     width: 25rem;
+  }
+  .hamburguer {
+    z-index: 0;
   }
   .contenedor h2 {
     font-size: 2.4rem;
@@ -367,6 +373,9 @@ html {
   }
   .contenedor p {
     font-size: 2rem;
+  }
+  .hamburguer {
+    z-index: 0;
   }
   .queHago, .contactameContainer {
     padding: 5rem;
@@ -423,6 +432,9 @@ html {
   }
   .contenedor p {
     font-size: 1.7rem;
+  }
+  .hamburguer {
+    z-index: 0;
   }
   .queHago, .contactameContainer {
     display: flex;

@@ -8,7 +8,9 @@
         padding: 0;
         z-index: 2;
     }
-
+    .hamburguer{
+        z-index: -1 !important;
+    }
     .contenedorIcons{
         padding: .5rem;
     }
@@ -53,7 +55,9 @@
             width: 25rem;
         }
     }
-
+    .hamburguer{
+        z-index: 0;
+    }
     .contenedor{
         h2{
             font-size: 2.4rem;
@@ -125,6 +129,9 @@
         p{
             font-size: 2rem;
         }
+    }
+    .hamburguer{
+        z-index: 0;
     }
     .queHago{
         padding: 5rem;
@@ -198,6 +205,9 @@
         p{
             font-size: 1.7rem;
         }
+    }
+    .hamburguer{
+        z-index: 0;
     }
     .queHago{
         display: flex;
