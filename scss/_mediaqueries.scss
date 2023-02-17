@@ -19,7 +19,7 @@
 };
 
 
-@media (max-width:390px) and (max-width:574px){
+@media (min-width:390px) and (max-width:574px){
 
     .header{
         background-position-y: 50%;
@@ -76,7 +76,7 @@
     }
 }
 
-@media (min-width: 381px) and (max-width:574px){
+@media (min-width: 359px) and (max-width:574px){
     .header{
         background-position-y: 50%;
         background-position-x: 50%;
@@ -84,10 +84,12 @@
     .contenedorYo{
         h1{
             font-size: 2rem;
+            font-weight: 800;
         }
 
         h2{
             font-size: 1.7rem;
+            font-weight: 800;
         }
 
         img{
@@ -112,7 +114,7 @@
     .queHago{
         padding: 5rem;
         p{
-            margin: 0rem 13rem;
+            margin: 0rem 23rem;
             text-align: start;
         }
     }
@@ -144,7 +146,7 @@
     }
 }
 
-@media (min-width: 300px) and (max-width:381px){
+@media (min-width: 300px) and (max-width:359px){
     .contenedorYo{
         gap: .2rem;
         h1{
