@@ -284,7 +284,7 @@ html {
     z-index: 2;
   }
   .hamburguer {
-    z-index: -1 !important;
+    z-index: 1 !important;
   }
   .contenedorIcons {
     padding: 0.5rem;
@@ -319,7 +319,7 @@ html {
     width: 25rem;
   }
   .hamburguer {
-    z-index: 0;
+    z-index: 1;
   }
   .contenedor h2 {
     font-size: 2.4rem;
@@ -375,7 +375,7 @@ html {
     font-size: 2rem;
   }
   .hamburguer {
-    z-index: 0;
+    z-index: 1;
   }
   .queHago, .contactameContainer {
     padding: 5rem;
@@ -434,7 +434,7 @@ html {
     font-size: 1.7rem;
   }
   .hamburguer {
-    z-index: 0;
+    z-index: 1;
   }
   .queHago, .contactameContainer {
     display: flex;
