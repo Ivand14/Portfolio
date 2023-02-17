@@ -78,12 +78,13 @@
 
 @media (min-width: 359px) and (max-width:574px){
     .header{
-        background-position-y: 50%;
-        background-position-x: 50%;
+        background-position-y: 30%;
+        background-position-x: 30%;
+        background-image: linear-gradient(to top, #3133355b 0%, #e2ebf06b 100%), url('/img/fotoPrincipal.jpg');
     }
     .contenedorYo{
         h1{
-            font-size: 2rem;
+            font-size: 1.7rem;
             font-weight: 800;
         }
 
