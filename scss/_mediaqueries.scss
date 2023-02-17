@@ -94,7 +94,7 @@
     .header{
         background-position-y: 30%;
         background-position-x: 30%;
-        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('/img/fotoPrincipal.jpg');
+        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('../img/fotoPrincipal.jpg');
     }
     .contenedorYo{
         h1{
@@ -165,9 +165,9 @@
     .header{
         background-position-y: 30%;
         background-position-x: 30%;
-        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('/img/fotoPrincipal.jpg');
+        background-image: linear-gradient(to top, #31333596 0%, #e2ebf041 100%), url('../img/fotoPrincipal.jpg');
     }
-    
+
     .contenedorYo{
         gap: .2rem;
         h1{
