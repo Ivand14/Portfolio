@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pavanam&display=swap" rel="stylesheet">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--CSS PROPIO-->
@@ -23,8 +25,8 @@
                 <a href="#inicio"  class="items btn-categoria active">Inicio</a>
                 <a href="#sobreMi"  class="items btn-categoria">Sobre mi</a>
                 <a href="#habilidades" class="items btn-categoria">Qué hago?</a>
-                <a href="#proyectos" class="items btn-categoria">Proyectos</a>
-                <a href="#contacto" class="items btn-categoria">Contactame</a>
+                <a href="#proyectos" class="items btn-categoria" >Proyectos</a>
+                <a href="#contacto" class="items btn-categoria">Contacto</a>
                 <div class="contenedorIcons">
                     <a href="https://www.linkedin.com/in/ivan-dicesare-693996256/" target="_blank"><img src="./img/linkedin (1).png" alt="linkedin"></a>
                     <a href="https://api.whatsapp.com/send?phone=542615540317" target="_blank"><img src="./img/whatsapp.png" alt="whatsapp"></a>
@@ -33,7 +35,7 @@
                 </div>
             </ul>
         </nav>
-        <div class="contenedorYo" id="inicio">
+        <div class="contenedorYo seccion" id="inicio">
             <img src="./img/fotoYo.jpeg" alt="fotoYo">
             <h1>IVÁN AGUSTIN DICESARE</h1>
             <h2>FRONT END DEVELOPER</h2>
@@ -41,28 +43,28 @@
     </header>
     <main class="contenedorMain" >
 
-        <section class="contenedor" id="sobreMi">
-            <h2>SOBRE MI</h2>
-            <p>
+        <section class="contenedor seccion" id="sobreMi">
+            <h2 data-aos="fade-right">SOBRE MI</h2>
+            <p data-aos="fade-right">
                 Hola a todos!,les cuento un poco sobre mi: a mitad del 2022 deicidí incursionarme en este mundo de la programación, empecé investigando por cuenta propia para estar seguro de que esto era lo que me apasionaba, cuando estuve seguro de que si empecé a estudiar por mis propios medios, viendo videos, cursos y leyendo de que se trataba cada rama que tiene la programación.
             </p>
-            <p>
+            <p data-aos="fade-right">
                 Comencé través de Udemy haciendo un curso de Front End, me gustó tanto que decidí dar un pasito mas y me inscribí en Coderhouse en la carrera de Front End, actualmente ya cuento con los aprendizajes de Desarrollo web y JavaScript.
-            </p> 
+            </p>  
                 
-            <p>
+            <p data-aos="fade-right">
                 Hoy en día me encuentro cursando ReactJs, proximamente continuare en Coderhouse con Desarrollo de aplicaciones.Lo que mas me interesa es estar siempre con un aprendizaje constante y explorando nuevos lenguajes por lo que decidí ingresar en el programa codo a codo para aprender PHP.
             </p>
         </section>
 
-        <section class="contenedor queHago" id="habilidades">
-            <h2>¿QUE HAGO?</h2>
+        <section class="contenedor queHago seccion" id="habilidades">
+            <h2 data-aos="fade-left">¿QUE HAGO?</h2>
 
-            <P>
+            <P data-aos="fade-left">
                 Las tecnologias con las que trabajo son: HTML5, CSS3, BOOTSTRAP ,SASS y JavaScript para todo lo que esta relacionado con el Desarrollo web. Para el control de versiones uso GIT y para repositorios de codigo GITHUB. Próximamente estaré con Desarrollo de aplicaciones y PHP.
             </P>
             
-            <div class="carousel" style="width: 100vh;">
+            <div class="carousel" style="width: 100vh;" data-aos="fade-left">
                 <a class="carousel-item" href="#five!" style="background-color: transparent;"><img src="./img/html5.png" class="img"></a>
                 <a class="carousel-item" href="#one!" style="background-color: transparent;"><img src="./img/bs.png" class="img"></a>
                 <a class="carousel-item" href="#two!" style="background-color: transparent;"><img src="./img/css3.png" class="img"></a>
@@ -74,11 +76,11 @@
            
         </section>
       
-    <section class="proyectos" id="proyectos">
-        <h2>MIS PROYECTOS</h2>
+    <section class="proyectos seccion" id="proyectos">
+        <h2 data-aos="zoom-in">MIS PROYECTOS</h2>
         <div class="contenedorProyectos">
 
-                    <div class="proyectoEstilos">
+                    <div class="proyectoEstilos" data-aos="zoom-in-down">
                         <h3>Pirca Cerveceria</h3>
                         <p>HTML,CSS,BOOTSTRAP,SASS</p>
                         <img src="./img/pirca.png" alt="pirca" class="imgProyecto">
@@ -89,7 +91,7 @@
                     </div>
         
     
-                        <div class="proyectoEstilos">
+                        <div class="proyectoEstilos" data-aos="zoom-in-down">
                             <h3>Huddle</h3>
                             <p>HTML,CSS,BOOTSTRAP,SASS</p>
                             <img src="./img/huddle.png" alt="HUDDLE" class="imgProyecto">
@@ -100,7 +102,7 @@
                     </div>
     
     
-                        <div class="proyectoEstilos">
+                        <div class="proyectoEstilos" data-aos="zoom-in-down">
                             <h3>Depilacion</h3>
                             <p>HTML,CSS,BOOTSTRAP,SASS</p>
                             <img src="./img/depilacion.png" alt="depilacion" class="imgProyecto">
@@ -111,7 +113,7 @@
                     </div>
     
     
-                        <div class="proyectoEstilos">
+                        <div class="proyectoEstilos" data-aos="zoom-in-down">
                             <h3>Website Coffe</h3>
                             <p>HTML,CSS,BOOTSTRAP,SASS</p>
                             <img src="./img/coffe.png" alt="Coffe" class="imgProyecto">
@@ -122,7 +124,7 @@
                     </div>
 
     
-                        <div class="proyectoEstilos">
+                        <div class="proyectoEstilos seccion" data-aos="zoom-in-down">
                             <h3>E-commerce</h3>
                             <p>HTML,CSS,SASS y JavaScript</p>
                             <img src="./img/ecommerce.png" alt="ecommerce" class="imgProyecto">
@@ -133,10 +135,10 @@
                     </div>
         </div>
     </section>
-    <section class="contactameContainer contenedor" id="contactame">
-        <h2>CONTACTAME</h2>
-        <p>Si me queres contactar, podes hacerlo a traves de los siguientes medios:</p>
-        <div class="contenedorImagenesContacto">
+    <section class="contactameContainer contenedor seccion" id="contactame">
+        <h2 data-aos="zoom-out-up">CONTACTAME</h2>
+        <p data-aos="zoom-out-up">Si me queres contactar, podes hacerlo a traves de los siguientes medios:</p>
+        <div class="contenedorImagenesContacto" data-aos="zoom-out-up">
             <a href="https://www.linkedin.com/in/ivan-dicesare-693996256/" target="_blank"><img src="./img/linkedin (1).png" alt="linkedin"></a>
                         <a href="https://api.whatsapp.com/send?phone=542615540317" target="_blank"><img src="./img/whatsapp.png" alt="whatsapp"></a>
                         <a href="mailto:ivanmoyano933@gmail.com" target="_blank"><img src="./img/gmail.png" alt="gmail"></a>
@@ -148,7 +150,13 @@
     <footer class="contenedor footer" id="contacto">
         <p>DESARROLLADO POR IVÁN DICESARE ©</p>
     </footer>
-
+<!--scripts-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1500
+        });
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         

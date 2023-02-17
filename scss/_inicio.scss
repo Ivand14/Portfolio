@@ -27,6 +27,7 @@
     transform: translate(110%);
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius:1.5rem ;
+    z-index: 2;
     img{
         height: 2rem;
     }
@@ -42,6 +43,7 @@
     gap: 2rem;
     padding: 3rem;
     overflow: hidden;
+    z-index: 2;
 }
 
 
@@ -87,6 +89,7 @@
     padding: 6rem;
     h1{
         font-size: 3rem;
+        font-weight: 800;
         font-family:  $titulo-nombre;
         text-shadow: 0rem .1rem .2rem rgb(250, 250, 250);
     }
@@ -94,6 +97,7 @@
         font-size: 2.5rem;
         font-family: $titulo-nombre;
         text-shadow: 0rem .1rem .2rem rgb(250, 250, 250);
+        font-weight: 800;
     }
     img{
         height: 30rem;
@@ -112,6 +116,7 @@
     border-radius: .9999rem;
     box-shadow: 0 0 0.4rem (#000);
     cursor: pointer;
+    z-index: 2;
 }
 .contenedorMain{
     display: flex;
@@ -199,6 +204,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    p{
+        font-size: 2rem;
+        font-family: $texto;
+    }
 }
 .imgProyecto{
     height:20rem;
