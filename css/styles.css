@@ -24,7 +24,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: start;
   gap: 2.5rem;
   position: fixed;
   top: 0rem;
@@ -52,11 +52,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
-  gap: 2rem;
-  padding: 3rem;
+  align-items: start;
+  padding: 1rem;
   overflow: hidden;
   z-index: 2;
+  height: 100vh;
+  width: 100vh;
 }
 
 .items {
@@ -68,13 +69,12 @@ html {
   color: #fafafa;
   transition: ease-in-out 0.5s;
   height: 4rem;
-  width: 100%;
-  margin-right: -3rem;
+  width: 130%;
 }
 
 .items:hover {
   background-color: #fafafa;
-  width: 20rem;
+  width: 130%;
   height: 4rem;
   border-radius: 1rem;
   color: #000;
@@ -87,9 +87,9 @@ html {
 
 .active {
   background-color: #fafafa;
-  width: 16rem;
+  width: 130%;
   height: 4rem;
-  padding: 0.1rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   color: #000;
 }
@@ -317,6 +317,10 @@ html {
   .contenedorYo img {
     height: 25rem;
     width: 25rem;
+  }
+  .contenedor-nav {
+    width: 28vh;
+    font-size: 1.5rem;
   }
   .hamburguer {
     z-index: 1;
