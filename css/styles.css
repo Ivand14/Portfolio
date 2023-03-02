@@ -242,13 +242,15 @@ html {
   font-family: "EB Garamond", serif;
   font-weight: 700;
   color: #000;
-  background: #f2f4f3;
+  background: linear-gradient(to left, transparent 50%, #000 50%);
+  background-position: right;
+  background-size: 200%;
   transition: ease 0.6s;
   border: solid 0.2rem #080708;
 }
 
 .btn-proyectos:hover {
-  background: #080708;
+  background-position: left;
   color: #f2f4f3;
 }
 
