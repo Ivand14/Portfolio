@@ -135,7 +135,8 @@
     align-items: center;
     gap: 1rem;
     margin-bottom: 3rem;
-    padding: 5rem;
+    padding: 1rem;
+    
 
     h2{
         font-size: 3rem;
@@ -148,12 +149,13 @@
     }
     p{
         font-size: 2.5rem;
-        margin-bottom: 2rem;
+        margin:2rem;
         font-family: $texto;
     }
 }
 
 .queHago{
+
     background: #333533;
     h2{
         color: #ffffff;
@@ -168,6 +170,8 @@
     height: 20rem;
     background: transparent !important ;
 }
+
+
 
 //PROYECTOS
 .proyectos{
